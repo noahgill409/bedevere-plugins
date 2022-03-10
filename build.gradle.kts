@@ -13,7 +13,7 @@ project.extra["GithubUrl"] = "https://github.com/noahgill409/bedevere-plugins"
 apply<BootstrapPlugin>()
 
 subprojects {
-    group = "com.example"
+    group = ""
 
     project.extra["PluginProvider"] = "noahgill409"
     project.extra["ProjectSupportUrl"] = "noahgill409@gmail.com"
