@@ -8,7 +8,7 @@ plugins {
     checkstyle
 }
 
-project.extra["GithubUrl"] = "https://github.com/noahgill409/olm-data"
+project.extra["GithubUrl"] = "https://github.com/noahgill409/bedevere-plugins"
 
 apply<BootstrapPlugin>()
 
