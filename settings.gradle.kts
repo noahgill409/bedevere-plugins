@@ -23,10 +23,9 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-rootProject.name = "external plugins example"
+rootProject.name = "bedevere-plugins"
 
-include(":kotlinexample")
-include(":javaexample")
+include(":olmdata")
 
 for (project in rootProject.children) {
     project.apply {
