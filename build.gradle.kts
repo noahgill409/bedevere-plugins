@@ -8,15 +8,15 @@ plugins {
     checkstyle
 }
 
-project.extra["GithubUrl"] = "https://github.com/<INSERT NAME>/<INSERT REPOSITORY>"
+project.extra["GithubUrl"] = "https://github.com/noahgill409/olm-data"
 
 apply<BootstrapPlugin>()
 
 subprojects {
     group = "com.example"
 
-    project.extra["PluginProvider"] = ""
-    project.extra["ProjectSupportUrl"] = ""
+    project.extra["PluginProvider"] = "noahgill409"
+    project.extra["ProjectSupportUrl"] = "noahgill409@gmail.com"
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
     repositories {
